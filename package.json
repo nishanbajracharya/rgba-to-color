@@ -1,6 +1,6 @@
 {
   "name": "rgba-to-color",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert an rgba color string into equivalent hex, rgb and hsl color strings factoring the alpha value.",
   "main": "lib.js",
   "scripts": {
