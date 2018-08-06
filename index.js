@@ -98,7 +98,7 @@ const rgbToHsl = (r, g, b) => {
 const rgbaToColor = rgba => {
   const [r, g, b, a] = getRGBArray(trimWhitespace(rgba));
 
-  const newColors = [r, g, b].map(val => clamp(Math.ceil(255 + a * (val - 255)), 0, 255));
+  const newColors = [r, g, b].map(val => clamp(Math.floor(255 + a * (val - 255)), 0, 255));
 
   return {
     hex: rgbToHex(...newColors),

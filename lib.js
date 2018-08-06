@@ -126,7 +126,7 @@ var rgbaToColor = function rgbaToColor(rgba) {
       a = _getRGBArray2[3];
 
   var newColors = [r, g, b].map(function (val) {
-    return clamp(Math.ceil(255 + a * (val - 255)), 0, 255);
+    return clamp(Math.floor(255 + a * (val - 255)), 0, 255);
   });
 
   return {
