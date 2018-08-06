@@ -2,14 +2,14 @@
   "name": "rgba-to-color",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib.js",
   "scripts": {
     "build": "babel index.js -o lib.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["color", "rgba", "rgb", "hex", "hsl"],
   "author": "Nishan Bajracharya <nisbaj11@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0"
